@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Статус заказа - Ателье "Элегант"</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">✂️</span>
+                    <h1>Элегант</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="index">Главная</a></li>
+                        <li><a href="novelties">Новинки</a></li>
+                        <li><a href="order-status" class="active">Статус заказа</a></li>
+                    </ul>
+                </nav>
+                <div class="auth-buttons">
+                    <a href="login" class="btn btn-outline">Войти</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Content Section -->
+    <section class="content-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Статус заказа</h2>
+                <p>Отслеживайте выполнение вашего заказа</p>
+            </div>
+            <div class="order-status-container">
+                <div class="search-form">
+                    <input type="text" id="order-number" placeholder="Введите номер заказа">
+                    <button class="btn btn-primary" id="search-order">Найти</button>
+                </div>
+                <div id="order-details">
+                    <!-- Детали заказа будут загружены через JavaScript -->
+                    <div class="order-placeholder">
+                        <p>Введите номер заказа для отслеживания его статуса</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Элегант</h3>
+                    <p>Качественные ткани и фурнитура для вашего ателье с 2010 года.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Навигация</h3>
+                    <ul>
+                        <li><a href="index">Главная</a></li>
+                        <li><a href="novelties">Новинки</a></li>
+                        <li><a href="order-status">Статус заказа</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Контакты</h3>
+                    <ul>
+                        <li>Телефон: +7 (495) 123-45-67</li>
+                        <li>Email: info@elegant.ru</li>
+                        <li>Адрес: Прокопьевск, ул. Шишкина 26</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Ателье "Элегант". Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/order-status.js"></script>
+</body>
+</html>
