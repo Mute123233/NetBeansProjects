@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.mycompany_DemGlaz_jar_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.mycompany.demglaz.entity.Units</class>
+    <class>com.mycompany.demglaz.entity.Orderitems</class>
+    <class>com.mycompany.demglaz.entity.Products</class>
+    <class>com.mycompany.demglaz.entity.Orderstatuses</class>
+    <class>com.mycompany.demglaz.entity.Manufacturers</class>
+    <class>com.mycompany.demglaz.entity.Pickuppoints</class>
+    <class>com.mycompany.demglaz.entity.Orders</class>
+    <class>com.mycompany.demglaz.entity.Users</class>
+    <class>com.mycompany.demglaz.entity.Categories</class>
+    <class>com.mycompany.demglaz.entity.Suppliers</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mariadb://localhost:3306/demglaz"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="org.mariadb.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="1234"/>
+    </properties>
+  </persistence-unit>
+</persistence>
