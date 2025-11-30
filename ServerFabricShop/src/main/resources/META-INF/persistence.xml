@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="com.shop_ServerFabricShop_jar_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>com.shop.serverfabricshop.entity.Discount</class>
+    <class>com.shop.serverfabricshop.entity.User</class>
+    <class>com.shop.serverfabricshop.entity.Rank</class>
+    <class>com.shop.serverfabricshop.entity.DressMaker</class>
+    <class>com.shop.serverfabricshop.entity.Material</class>
+    <class>com.shop.serverfabricshop.entity.Status</class>
+    <class>com.shop.serverfabricshop.entity.Seller</class>
+    <class>com.shop.serverfabricshop.entity.OrderFurniture</class>
+    <class>com.shop.serverfabricshop.entity.OrderMaterial</class>
+    <class>com.shop.serverfabricshop.entity.Manager</class>
+    <class>com.shop.serverfabricshop.entity.Furniture</class>
+    <class>com.shop.serverfabricshop.entity.OrderDressMaker</class>
+    <class>com.shop.serverfabricshop.entity.Buyer</class>
+    <class>com.shop.serverfabricshop.entity.Order1</class>
+    <class>com.shop.serverfabricshop.entity.Statusraboty</class>
+    <class>com.shop.serverfabricshop.entity.ProdazhaFurnitury</class>
+    <class>com.shop.serverfabricshop.entity.Rastsvetka</class>
+    <class>com.shop.serverfabricshop.entity.PostavkaTkani</class>
+    <class>com.shop.serverfabricshop.entity.Prodavec</class>
+    <class>com.shop.serverfabricshop.entity.Shveya</class>
+    <class>com.shop.serverfabricshop.entity.Izdelie</class>
+    <class>com.shop.serverfabricshop.entity.Tkan</class>
+    <class>com.shop.serverfabricshop.entity.EdinitsyIzmereniya</class>
+    <class>com.shop.serverfabricshop.entity.Polzovateli</class>
+    <class>com.shop.serverfabricshop.entity.ProdazhaTkani</class>
+    <class>com.shop.serverfabricshop.entity.Furnitura</class>
+    <class>com.shop.serverfabricshop.entity.Klient</class>
+    <class>com.shop.serverfabricshop.entity.PostavkaFurnitury</class>
+    <class>com.shop.serverfabricshop.entity.Sostavprocent</class>
+    <class>com.shop.serverfabricshop.entity.IzdelieFurnitura</class>
+    <class>com.shop.serverfabricshop.entity.Razmer</class>
+    <class>com.shop.serverfabricshop.entity.Sostav</class>
+    <class>com.shop.serverfabricshop.entity.TkanIzdelie</class>
+    <class>com.shop.serverfabricshop.entity.ZakazNaPoshiv</class>
+    <class>com.shop.serverfabricshop.entity.TsvetFurnitury</class>
+    <class>com.shop.serverfabricshop.entity.Upravlyayushchiy</class>
+    <class>com.shop.serverfabricshop.entity.Skidka</class>
+    <class>com.shop.serverfabricshop.entity.TsvetTkani</class>
+    <class>com.shop.serverfabricshop.entity.Zakaztkan</class>
+    <class>com.shop.serverfabricshop.entity.ZakazFurnitura</class>
+    <class>com.shop.serverfabricshop.entity.Postavkafurnitury</class>
+    <class>com.shop.serverfabricshop.entity.Zakaznaposhiv</class>
+    <class>com.shop.serverfabricshop.entity.Postavkatkani</class>
+    <class>com.shop.serverfabricshop.entity.Zakazfurnitura</class>
+    <class>com.shop.serverfabricshop.entity.Edinitsyizmereniya</class>
+    <class>com.shop.serverfabricshop.entity.Tsvetfurnitury</class>
+    <class>com.shop.serverfabricshop.entity.Tsvettkani</class>
+    <class>com.shop.serverfabricshop.entity.Prodazhatkani</class>
+    <class>com.shop.serverfabricshop.entity.Prodazhafurnitury</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mariadb://1208-1:3306/group01"/>
+      <property name="javax.persistence.jdbc.user" value="group01"/>
+      <property name="javax.persistence.jdbc.driver" value="org.mariadb.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="group01"/>
+      <property name="hibernate.dialect" value="org.hibernate.dialect.MariaDBDialect"/>
+      <property name="hibernate.hbm2ddl.auto" value="update"/>
+      <property name="hibernate.show_sql" value="true"/>
+    </properties>
+  </persistence-unit>
+</persistence>
